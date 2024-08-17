@@ -16,5 +16,33 @@ namespace cantina
         {
             InitializeComponent();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+        if(pgbsplash.Maximum < 100)
+            {
+
+                //frmLogin abrir = new frmLogin();
+                //abrir.Show();
+                pgbsplash.Value = pgbsplash.Value + 1;
+                lblValor.Text = pgbsplash.Value.ToString();
+                tmrSplash.Enabled = false;
+            }
+            else { frmLogin abrir = new frmLogin();
+                abrir.Show();
+                this.Hide();
+                tmrSplash.Enabled = false; }
+            
+        }
     }
 }

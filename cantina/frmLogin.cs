@@ -16,5 +16,25 @@ namespace cantina
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnsair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
